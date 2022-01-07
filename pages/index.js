@@ -21,7 +21,7 @@ const Home = ({ allPostsData }) => {
           <title>{siteTitle}</title>
         </Head>
         <section className={utilStyles.headingMd}>
-          <h4>Hello,I'm Tappei.<br/> I'm 25 years old.<br/>I'm studing javascript</h4>
+          <h4>Hello,I am Tappei<br/> I am 25 years old<br/>I am studing javascript</h4>
           <h3>
             This is My Github account <br/>
             <a href="https://github.com/peppoo?tab=repositories">Github</a>
