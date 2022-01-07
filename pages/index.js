@@ -14,7 +14,7 @@ export async function getStaticProps() {
   }
 }
 
-export default function Home({ allPostsData }) {
+const Home = ({ allPostsData }) => {
   return (
     <Layout home>
         <Head>
@@ -55,5 +55,7 @@ export default function Home({ allPostsData }) {
     </Layout>
   )
 }
+
+export default Home;
 
 
